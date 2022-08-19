@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="dashboard.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/brands.min.css" integrity="sha512-nS1/hdh2b0U8SeA8tlo7QblY6rY6C+MgkZIeRzJQQvMsFfMQFUKp+cgMN2Uuy+OtbQ4RoLMIlO2iF7bIEY3Oyg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <title>Progate User Name</title>
+</head>
+<body>
+   <header class="header">
+      <a href="/" class="logo">
+         <img src="img/header_log.svg" alt="" class="logo-img">
+      </a>
+      <div class="nav-left">
+         <ul>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Slide Library</a></li>
+            <li><a href="#">Rankings</a></li>
+            <li><a href="#">Help</a></li>
+         </ul>
+      </div>
+      <div class="nav-right">
+         <div class="user-details">
+            <img src="https://lh3.googleusercontent.com/a-/AFdZucrazoNppDSlH_TulEwLPkTGeK8FdcSEn0Rg55yi_tc=s96-c?sz=150" alt="" class="user-image">
+            <span class="user-name">CAT011-JANSUK EMMANUEL</span>
+            <span class="user-level">(Lv-18) <i class="fa-solid fa-caret-down"></i></span>
+         </div>
+         <div class="separator"></div>
+         <div class="bell-icon">
+            <span class="fa-solid fa-bell"></span>
+         </div>
+      </div>
+      <div class="smaller-screens" style="display: hidden;"></div>
+   </header>
+   <div class="drop-down">
+      <ul>
+         <li><a href="#">Dashboard</a></li>
+         <li><a href="#">Account Settings</a></li>
+         <li><a href="#">Log out</a></li>
+      </ul>
+   </div>
+   <div class="dashboard-main">
+      <div class="dashboard-left">
+         <div class="dashboard-left-item-1">
+            <div class="dashboard-left-item-1-user-info">
+               <span class="dashboard-user-img"><img src="https://lh3.googleusercontent.com/a-/AFdZucrazoNppDSlH_TulEwLPkTGeK8FdcSEn0Rg55yi_tc=s96-c?sz=150" alt=""></span>
+               <span class="dashboard-user-name">CAT011-<br>JANSUK<strong style="display: block;">Lv.18</strong></span>
+            </div>
+            <div class="dashboard-left-item-1-user-exercises">
+               <div class="exercises-count">
+                  <span><img src="img/lesson-6dd027a7a83c2171523c..svg" alt=""><strong style="font-size:30px; margin-left: 5px;">37</strong></span>
+               </div>
+               <div class="exercises-text">
+                  Exercises Cleared
+               </div>
+            </div>
+            <div class="dashboard-left-item-1-user-lessons">
+               <div class="lessons-count">
+                  <span><img src="img/completed-ribbon-6ef701192c22d265157c..svg" alt=""><strong style="font-size:30px; margin-left: 5px;">2</strong></span>
+               </div>
+               <div class="lessons-text">
+                  Lessons Completed
+               </div>
+            </div>
+         </div>
+         <div class="dashboard-left-item-2">
+            <h4 class="item-2-title"><span style="padding-right: 5px;"><img src="img/lesson-6dd027a7a83c2171523c..svg" alt=""></span>Continue Learning</h4>
+            <div class="item-2-content-progress">
+               <div class="item-2-content-img">
+                  <img src="img/397584acebd8b064d0481c1476e496db.svg" class="content-progress-img" alt="">
+               </div>
+               <div class="item-2-content-info">
+                  <div class="content-info-details">
+                     <div class="content-info-title">
+                        Next - Study HTML & CSS II
+                     </div>
+                     <h4>The Basic Layout</h4>
+                     <div class="content-info-progres-bar">
+                        <progress id="page-progress" max="18" value="2"></progress><label for="page-progress" style="padding-left: 10px"><small>2/18 pages</small></label>
+                     </div>
+                  </div>
+               </div>
+               <div class="re-button">
+                  <a href="#">Resume</a>
+               </div>
+            </div>
+         </div>
+         <div class="dashboard-left-item-3">
+            <h2 class="item-2-title"><span style="padding-right: 5px;"><img src="img/lesson-6dd027a7a83c2171523c..svg" alt=""></span>Lessons in Progress</h2>
+            <div class="app-type">
+               <a href="#" class="app-st"><i class="fa-solid fa-laptop-code" style="padding-right: 4px;"></i>Web</a>
+               <a href="#" disabled class="app app-st"><i class="fa-brands fa-adn" style="padding-right: 4px;"></i>App</a>
+            </div>
+            <div class="view-all">
+               <a href="#" class="vallLink">View all<i class="fa-solid fa-angle-right" style="font-size: 12px; padding-left: 4px;"></i></a>
+            </div>
+            <div class="clr"></div>
+            <div class="no-lessons">
+               <div class="grid-1">
+                  <div class="no-lessons-text">You are not working on any web lessons.</div>
+               </div>
+               <div class="grid-2">
+                  <div class="no-lessons-img">
+                     <img src="img/no-in-progress-lessons-5ea0fc13ca0cfaf3e019..png" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="dashboard-left-item-4">
+            <h2 class="item-2-title"><span style="padding-right: 5px;"><img src="img/lesson-6dd027a7a83c2171523c..svg" alt=""></span>Completed Lessons</h2>
+            <div class="app-type">
+               <a href="#" class="app-st"><i class="fa-solid fa-laptop-code" style="padding-right: 4px;"></i>Web</a>
+               <a href="#" disabled class="app app-st"><i class="fa-brands fa-adn" style="padding-right: 4px;"></i>App</a>
+            </div>
+            <div class="view-all">
+               <a href="#" class="vallLink">View all<i class="fa-solid fa-angle-right" style="font-size: 12px; padding-left: 4px;"></i></a>
+            </div>
+            <div class="clr"></div>
+            <div class="card">
+               <div class="gold-award">
+                  <img src="img/completed-ribbon-6ef701192c22d265157c..svg" alt="">
+               </div>
+               <div class="clr"></div>
+               <div class="card-text">
+                  <div class="card-title" style="margin-bottom: 10px;">Study</div>
+                  <div class="card-cap" style="margin-bottom: 10px;"><strong>Git I</strong></div>
+               </div>
+               <div class="card-img">
+                  <img src="img/git-svg.svg" alt="">
+               </div>
+               <div class="card-btn">
+                  Review
+               </div>
+            </div>
+            <div class="card" id="html-card" style="margin-left: 15px">
+               <div class="gold-award">
+                  <img src="img/completed-ribbon-6ef701192c22d265157c..svg" alt="">
+               </div>
+               <div class="clr"></div>
+               <div class="card-text">
+                  <div class="card-title" style="margin-bottom: 10px;">Study</div>
+                  <div class="card-cap" style="margin-bottom: 10px;"><strong>Git I</strong></div>
+               </div>
+               <div class="card-img">
+                  <img src="img/html-css.svg" alt="">
+               </div>
+               <div class="card-btn">
+                  Review
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="dashboard-right">
+         <div style="margin-bottom: 20px;">Recent History</div>
+         <div class="historyCalendar">
+            <div class="month-txt">Aug</div>
+            <table class="cld-table">
+               <tr class="weeks">
+                  <th>Mo</th>
+                  <th>Tu</th>
+                  <th>We</th>
+                  <th>Th</th>
+                  <th>Fr</th>
+                  <th>Sa</th>
+                  <th>Su</th>
+               </tr>
+               <tr class="days">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+               </tr>
+               <tr class="days">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+               </tr>
+               <tr class="days">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+               </tr>
+               <tr class="days">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td class="exe-clr"></td>
+                  <td></td>
+               </tr>
+               <tr class="days">
+                  <td></td>
+                  <td class="exe-clr"></td>
+                  <td class="more-exe-clr"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+               </tr>
+            </table>
+         </div>
+         <div class="key">
+            <span class="key-txt">Less</span>
+            <span class="key-bx bx1"></span>
+            <span class="key-bx bx2"></span>
+            <span class="key-bx bx3"></span>
+            <span class="key-bx bx4"></span>
+            <span class="key-bx bx5"></span>
+            <span class="key-txt">More</span>
+         </div>
+         <div class="dashboard-right-texts">
+            <div>Learning Roadmap<i class="fa-solid fa-arrow-up-right-from-square" style="margin-left: 5px;"></i></div>
+            <div class="progate-journey">
+               <img src="img/logo_journey-23907763777a86c2c540..svg" alt="">
+            </div>
+            <h4 style="padding-top: 20px;">Language Course Achievements</h4>
+            <div class="app-type" style="margin-top: -15px;">
+               <a href="#" class="app-st"><i class="fa-solid fa-laptop-code" style="padding-right: 4px;"></i>Web</a>
+               <a href="#" disabled class="app app-st"><i class="fa-brands fa-adn" style="padding-right: 4px;"></i>App</a>
+            </div>
+         </div>
+         <div class="courses">
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/git.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">Git</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/html.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">HTML & CSS</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/nodejs-5991e1b162ee9963783ba17fbff9fa102f1ac44e206ebbe721757408cbb47020.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">Node.js</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/react-0f136bf165fcdb8892e9433f1df88b67751b0f298d549cbbae2de8b95ab964c1.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">React</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/go-03df941b4731098821180da961dd9676d6070acde2af512dba11249e84aa8310.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">Go</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/es6-0b2c03accda934c9cf2bd1322b43d657e78fce396e61cbc7ec904de47b16ea67.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">JavaScript</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/sass-046cc6e30a83a62a9b5ffc5be0be6e6d28bd77121b63b4df8a326f5912a5530b.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">Sass</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/sql-4f34a863818fa3b34ceaa777cca69fb7268a54645c5128416758acad8239f52f.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">SQL</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/php-f393fe020440d5fb2b515671dd1585c6e43f04643b471c73ad263bd36e782a2f.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">PHP</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/jquery-c2abc72e53d4e6bcf2fb776d4b6152ce951f97f9898800674c88e9511567a284.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">jQuery</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/es5-d32e427859bd842483ecad08bdd88a41abd7562357474bc9c071f4bfad8df1b8.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">JavaScript (ES5)</div>
+               </div>
+            </div>
+            <div class="course-1">
+               <div class="outside-wrapper">
+                  <div class="img-wrapper">
+                     <img src="img/right-dash-img/commandline-220a7a9c3d318c6476160fbeebb17d0c6c8dacefbd2edbe21a635f5f421d3c7e.svg" class="imgs" alt="">
+                  </div>
+                  <div class="img-text">Command Line</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="clr"></div>
+   <footer>
+      <div class="footer-main">
+         <div class="ft">
+            <div class="ft-logo">
+               <img src="img/footer-lgo.svg" class="lgimg" alt="">
+               <div class="lg-txt" style="display: block; margin-top: 50px; margin-bottom: 10px;;">
+                  Check Out Our App
+               </div>
+               <div class="apple-store">
+                  <img src="img/apple-store.svg" alt="">
+               </div>
+               <div class="google-store">
+                  <img src="img/google-store.svg" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="ft">
+            <div class="ft-services-list">
+               <h3>Services</h3>
+               <ul>
+                  <li><a href="#">Courses</a></li>
+                  <li><a href="#">Plans</a></li>
+                  <li><a href="#">Dashboard</a></li>
+                  <li><a href="#">Learning Roadmap</a></li>
+                  <li><a href="#">Success Stories</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Help</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="ft">
+            <div class="ft-support-list">
+               <h3>Support</h3>
+               <ul>
+                  <li><a href="#">About Progate</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="ft">
+            <div class="ft-connect">
+               <h3>Connect with us</h3>
+               <ul>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+               </ul>
+            </div>
+         </div>
+         <div style="margin-top: 40px;"><small>&copy; 2014 Progate. Inc.</small></div>
+      </div>
+   </footer>
+</body>
+</html>

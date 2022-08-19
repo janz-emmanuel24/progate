@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65.69 65.69">
+  <g data-name="レイヤー 2">
+    <g data-name="レイヤー 1">
+      <circle cx="32.85" cy="32.85" r="32.5" fill="#d3e0e5"/>
+      <rect x="19.6" y="20.87" width="27.86" height="27.86" rx="1.75" transform="rotate(-45 33.53 34.791)" stroke-miterlimit="10" stroke="#002f4f" fill="#002f4f" stroke-width="1.39"/>
+      <path d="M26.37 21.39l4.29 4.29a2.67 2.67 0 0 0 1.42 3.38V39a2.66 2.66 0 1 0 2.14 0v-9.76l3.85 3.85a2.72 2.72 0 0 0-.19 1 2.66 2.66 0 1 0 2.66-2.66 2.55 2.55 0 0 0-.92.17l-4-4a2.84 2.84 0 0 0 .18-1 2.66 2.66 0 0 0-2.65-2.6 2.62 2.62 0 0 0-1 .19l-4.29-4.29" stroke-width=".69" fill="#ff9f00" stroke-linejoin="round" stroke="#002f4f"/>
+      <circle cx="32.85" cy="32.85" r="32.5" fill="none" stroke="#164460" stroke-linecap="round" stroke-width=".69" stroke-miterlimit="10"/>
+    </g>
+  </g>
+</svg>
